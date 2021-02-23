@@ -1,56 +1,113 @@
-.container {
+body {
+    margin: 0px;
+    padding-top: 800px;
     text-align: center;
 }
 
-#img1 {
+#profile {
+    width: 200px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    color: #00FFFF;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: table;
+    background-color: black;
     width: 100%;
+    height: 100%;
 }
 
-.img2 {
-    width: 250px;
-    height: 200px;
+#Name {
+    font-size: 30px;
+    font-family: 'Stalinist One', cursive;
 }
 
-.thumb {
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.modal-content {
-    margin-top: 100px;
-}
-
-.img_modal {
-    display: inline-block;
-}
-
-.modal-body {
-    text-align: center
-}
-
-#contact iframe {
+#bio {
+    padding: 50p;
+    text-align: center;
+    font-size: 30px;
+    height: 800px;
     width: 100%;
+    background-color: azure;
 }
 
-.contact_1 h3 {
-    display: inline;
+.welcome-inner {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
 }
 
-.contact_1 a {
-    text-shadow: none;
+.line {
+    height: 6px;
+    background-color: blue;
+    width: 70px;
+    margin: auto;
+}
+
+.links {
+    float: left;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links:hover {
+    background-color: dodgerblue;
+}
+
+.artical:hover {
+    background-color: dodgerblue;
+}
+
+#App {
+    padding: 50p;
+    text-align: center;
+    width: 100%;
+    height: 800px;
+    background-color: blue;
+
+}
+
+#Games {
+    padding: 50p;
+    text-align: center;
+    width: 100%;
+    height: 800px;
+    background-color: antiquewhite;
+}
+
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 #myCarousel {
     background-color: red;
-}
-
-#myCarousel img {
-    height: 350px;
-}
-
-.carousel-inner p {
-    margin-bottom: 15px;
-    margin-top: 15px;
-    color: white;
-    font-size: 20px;
 }
